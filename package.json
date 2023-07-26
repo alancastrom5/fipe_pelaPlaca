@@ -1,0 +1,11 @@
+{
+  "name": "fipe_pelaplaca",
+  "version": "1.0.0",
+  "description": "Consumir api para consultar a fipe pela placa do veiculo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan C. Moura",
+  "license": "ISC"
+}
