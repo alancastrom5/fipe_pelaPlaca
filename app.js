@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const base_url = 'https://cluster.apigratis.com/api/v1';
-const access_token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3BsYXRhZm9ybWEuYXBpYnJhc2lsLmNvbS5ici9zb2NpYWwvZ29vZ2xlL2NhbGxiYWNrIiwiaWF0IjoxNjkwMDcwMzE4LCJleHAiOjE3MjE2MDYzMTgsIm5iZiI6MTY5MDA3MDMxOCwianRpIjoiSjVHNVlPc1VtS1M3WXBXQSIsInN1YiI6IjQxODEiLCJwcnYiOiIyM2JkNWM4OTQ5ZjYwMGFkYjM5ZTcwMWM0MDA4NzJkYjdhNTk3NmY3In0.ICUxceGZRIlX38kN_2ubya3vtF0eWNoSZ1v5goFEvJY'; // Substitua esta linha pelo seu token real
+const access_token = ''; // Substitua esta linha pelo seu token real
 // Variáveis para controle do limite de requisições
 let requestCount = 0;
 const maxRequests = 1; // Defina o número máximo de requisições que deseja fazer
@@ -15,9 +15,9 @@ async function getVehicleInfo(placa) {
   const headers = {
     'Content-Type': 'application/json',
     'Authorization': `Bearer ${access_token}`,
-    'SecretKey': 'fd783073-911f-411a-8668-8658173146c3',
-    'PublicToken': '672ABC94262CVF7CE8262O0ZF35C46F0651A7',
-    'DeviceToken': 'd9c49c44-7c94-46bd-bc80-bdaf1f3399ca'
+    'SecretKey': '',
+    'PublicToken': '',
+    'DeviceToken': ''
   };
   const data = {
     "placa": placa
